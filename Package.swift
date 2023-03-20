@@ -11,6 +11,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "CocoaDebug", dependencies: [], path: "CocoaDebug/Sources"),
+        .target(name: "CocoaDebug", dependencies: [], path: "CocoaDebug"),
     ]
 )
