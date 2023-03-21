@@ -595,6 +595,232 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00579E5129C9CD8A00DE2BC0 /* ObjcSource */ = {
+			isa = PBXGroup;
+			children = (
+				00579E6529C9D90100DE2BC0 /* include */,
+				00579E5229C9CD8A00DE2BC0 /* Monitor */,
+				00579E5329C9CD8A00DE2BC0 /* Core */,
+				00579E5429C9CD8A00DE2BC0 /* fishhook */,
+				00579E5629C9CD8A00DE2BC0 /* Network */,
+				00579E5729C9CD8A00DE2BC0 /* CustomHTTPProtocol */,
+				00579E5829C9CD8A00DE2BC0 /* Logs */,
+				00579E5929C9CD8A00DE2BC0 /* Sandbox */,
+				00579E5A29C9CD8A00DE2BC0 /* Swizzling */,
+				00579E5B29C9CD8A00DE2BC0 /* Categories */,
+			);
+			path = ObjcSource;
+			sourceTree = "<group>";
+		};
+		00579E5229C9CD8A00DE2BC0 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				3871CFF927042E1F005967AE /* _RunloopMonitor.m */,
+				3871CFF727042E1F005967AE /* _BacktraceLogger.m */,
+				3828BA28259E223B00ABF650 /* _DebugConsoleLabel.m */,
+				00579E5C29C9CD9A00DE2BC0 /* include */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		00579E5329C9CD8A00DE2BC0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38CD799D29B22ADA00B973BD /* _AutoLaunch.m */,
+				38CD79A029B22ADA00B973BD /* _DeviceUtil.m */,
+				38CD79A329B22ADA00B973BD /* _DeviceUtil+Constant.m */,
+				38CD79A529B22ADA00B973BD /* CocoaDebugDeviceInfo.m */,
+				00579E5D29C9CDA900DE2BC0 /* include */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		00579E5429C9CD8A00DE2BC0 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				3882D68025676EA200379E0C /* _fishhook.c */,
+				00579E5E29C9CDAE00DE2BC0 /* include */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		00579E5629C9CD8A00DE2BC0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3826DABD24EE5BF5003DE040 /* _HttpModel.m */,
+				3826DAC524EE5BF5003DE040 /* _NetworkHelper.m */,
+				3826DAC724EE5BF5003DE040 /* _HttpDatasource.m */,
+				00579E5F29C9CDB500DE2BC0 /* include */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		00579E5729C9CD8A00DE2BC0 /* CustomHTTPProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				3826DACB24EE5BF5003DE040 /* _QNSURLSessionDemux.m */,
+				3826DACC24EE5BF5003DE040 /* _CustomHTTPProtocol.m */,
+				3826DACD24EE5BF5003DE040 /* _CacheStoragePolicy.m */,
+				3826DACF24EE5BF5003DE040 /* _CanonicalRequest.m */,
+				00579E6029C9CDBA00DE2BC0 /* include */,
+			);
+			path = CustomHTTPProtocol;
+			sourceTree = "<group>";
+		};
+		00579E5829C9CD8A00DE2BC0 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				3826DADB24EE5BF5003DE040 /* _OCLogModel.m */,
+				3826DAD424EE5BF5003DE040 /* _NSLogHook.m */,
+				3826DAD624EE5BF5003DE040 /* _OCLoggerFormat.m */,
+				3826DAD724EE5BF5003DE040 /* CocoaDebugTool.m */,
+				3826DAD924EE5BF5003DE040 /* _OCLogStoreManager.m */,
+				3826DADA24EE5BF5003DE040 /* _OCLogHelper.m */,
+				3826DAE124EE5BF5003DE040 /* _ObjcLog.m */,
+				00579E6129C9CDBE00DE2BC0 /* include */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		00579E5929C9CD8A00DE2BC0 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				3826DD2224EE5FD5003DE040 /* _DirectoryContentsTableViewController.m */,
+				3826DD1524EE5FD4003DE040 /* _FileInfo.m */,
+				3826DD1C24EE5FD5003DE040 /* _FilePreviewController.m */,
+				3826DD2024EE5FD5003DE040 /* _FileTableViewCell.m */,
+				3826DD1424EE5FD4003DE040 /* _ImageController.m */,
+				3826DD1F24EE5FD5003DE040 /* _ImageResources.m */,
+				3826DD1D24EE5FD5003DE040 /* _Sandboxer.m */,
+				3826DD1324EE5FD4003DE040 /* _SandboxerHelper.m */,
+				00579E6229C9CDC300DE2BC0 /* include */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		00579E5A29C9CD8A00DE2BC0 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				3826DAF524EE5BF5003DE040 /* _Swizzling.m */,
+				3826DAF624EE5BF5003DE040 /* _WKWebView+Swizzling.m */,
+				00579E6329C9CDC600DE2BC0 /* include */,
+			);
+			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		00579E5B29C9CD8A00DE2BC0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				38F69F8926A6FAFB0010953F /* GPBMessage+CocoaDebug.m */,
+				3826DB0324EE5BF5003DE040 /* NSObject+CocoaDebug.m */,
+				00579E6429C9CDCA00DE2BC0 /* include */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		00579E5C29C9CD9A00DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E5D29C9CDA900DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E5E29C9CDAE00DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E5F29C9CDB500DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E6029C9CDBA00DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E6129C9CDBE00DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E6229C9CDC300DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E6329C9CDC600DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E6429C9CDCA00DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		00579E6529C9D90100DE2BC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				38F69F8826A6FAFB0010953F /* GPBMessage+CocoaDebug.h */,
+				3826DB0124EE5BF5003DE040 /* NSObject+CocoaDebug.h */,
+				3826DD1924EE5FD5003DE040 /* _DirectoryContentsTableViewController.h */,
+				3826DD1724EE5FD5003DE040 /* _FileInfo.h */,
+				3826DD1824EE5FD5003DE040 /* _FilePreviewController.h */,
+				3826DD1624EE5FD5003DE040 /* _FileTableViewCell.h */,
+				3826DD2324EE5FD5003DE040 /* _ImageController.h */,
+				3826DD1E24EE5FD5003DE040 /* _ImageResources.h */,
+				3826DD2124EE5FD5003DE040 /* _Sandboxer-Header.h */,
+				3826DD1A24EE5FD5003DE040 /* _Sandboxer.h */,
+				3826DD1B24EE5FD5003DE040 /* _SandboxerHelper.h */,
+				3826DAC924EE5BF5003DE040 /* _CacheStoragePolicy.h */,
+				3826DACA24EE5BF5003DE040 /* _CanonicalRequest.h */,
+				3826DACE24EE5BF5003DE040 /* _QNSURLSessionDemux.h */,
+				3826DAD024EE5BF5003DE040 /* _CustomHTTPProtocol.h */,
+				3882D68125676EA200379E0C /* _fishhook.h */,
+				3826DABE24EE5BF5003DE040 /* _NetworkHelper.h */,
+				3826DAC024EE5BF5003DE040 /* _HttpDatasource.h */,
+				3826DAC324EE5BF5003DE040 /* _HttpModel.h */,
+				38CD79A229B22ADA00B973BD /* _DeviceUtil.h */,
+				38CD799F29B22ADA00B973BD /* _DeviceUtil+Constant.h */,
+				38CD79A129B22ADA00B973BD /* CocoaDebug.h */,
+				38CD799C29B22ADA00B973BD /* CocoaDebugDeviceInfo.h */,
+				3826DAD324EE5BF5003DE040 /* _OCLogModel.h */,
+				3826DAD524EE5BF5003DE040 /* _OCLogHelper.h */,
+				3826DAD824EE5BF5003DE040 /* _ObjcLog.h */,
+				3826DADE24EE5BF5003DE040 /* _OCLoggerFormat.h */,
+				3826DADF24EE5BF5003DE040 /* CocoaDebugTool.h */,
+				3826DAE024EE5BF5003DE040 /* _OCLogStoreManager.h */,
+				3826DAF724EE5BF5003DE040 /* _Swizzling.h */,
+				3871CFF827042E1F005967AE /* _RunloopMonitor.h */,
+				3871CFF627042E1F005967AE /* _BacktraceLogger.h */,
+				3828BA27259E223B00ABF650 /* _DebugConsoleLabel.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		380965682414E04F00382668 = {
 			isa = PBXGroup;
 			children = (
@@ -625,18 +851,14 @@
 		3826D9CD24EE5BF4003DE040 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				00579E5129C9CD8A00DE2BC0 /* ObjcSource */,
 				3828BA25259E223B00ABF650 /* Monitor */,
-				3882D67F25676EA200379E0C /* fishhook */,
 				3826D9CE24EE5BF4003DE040 /* Core */,
 				3826D9D424EE5BF4003DE040 /* App */,
 				3826DA0824EE5BF4003DE040 /* Resources */,
 				3826DABB24EE5BF5003DE040 /* Network */,
-				3826DAC824EE5BF5003DE040 /* CustomHTTPProtocol */,
 				3826DAD124EE5BF5003DE040 /* Logs */,
-				3826DAE224EE5BF5003DE040 /* Sandbox */,
-				3826DAF424EE5BF5003DE040 /* Swizzling */,
 				3826DAF824EE5BF5003DE040 /* Window */,
-				3826DB0024EE5BF5003DE040 /* Categories */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -644,16 +866,8 @@
 		3826D9CE24EE5BF4003DE040 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				38CD799D29B22ADA00B973BD /* _AutoLaunch.m */,
-				38CD79A229B22ADA00B973BD /* _DeviceUtil.h */,
-				38CD79A029B22ADA00B973BD /* _DeviceUtil.m */,
-				38CD799F29B22ADA00B973BD /* _DeviceUtil+Constant.h */,
-				38CD79A329B22ADA00B973BD /* _DeviceUtil+Constant.m */,
-				38CD79A129B22ADA00B973BD /* CocoaDebug.h */,
 				38CD79A429B22ADA00B973BD /* CocoaDebug.swift */,
 				38CD799B29B22ADA00B973BD /* CocoaDebug+Extensions.swift */,
-				38CD799C29B22ADA00B973BD /* CocoaDebugDeviceInfo.h */,
-				38CD79A529B22ADA00B973BD /* CocoaDebugDeviceInfo.m */,
 				38CD799E29B22ADA00B973BD /* CocoaDebugSettings.swift */,
 			);
 			path = Core;
@@ -878,91 +1092,23 @@
 			isa = PBXGroup;
 			children = (
 				3826DABC24EE5BF5003DE040 /* JsonViewController.swift */,
-				3826DABD24EE5BF5003DE040 /* _HttpModel.m */,
-				3826DABE24EE5BF5003DE040 /* _NetworkHelper.h */,
 				3826DABF24EE5BF5003DE040 /* NetworkCell.swift */,
-				3826DAC024EE5BF5003DE040 /* _HttpDatasource.h */,
 				3826DAC124EE5BF5003DE040 /* NetworkViewController.swift */,
 				3826DAC224EE5BF5003DE040 /* NetworkDetailViewController.swift */,
-				3826DAC324EE5BF5003DE040 /* _HttpModel.h */,
 				3826DAC424EE5BF5003DE040 /* NetworkDetailCell.swift */,
-				3826DAC524EE5BF5003DE040 /* _NetworkHelper.m */,
 				3826DAC624EE5BF5003DE040 /* NetworkDetailModel.swift */,
-				3826DAC724EE5BF5003DE040 /* _HttpDatasource.m */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		3826DAC824EE5BF5003DE040 /* CustomHTTPProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				3826DAC924EE5BF5003DE040 /* _CacheStoragePolicy.h */,
-				3826DACA24EE5BF5003DE040 /* _CanonicalRequest.h */,
-				3826DACB24EE5BF5003DE040 /* _QNSURLSessionDemux.m */,
-				3826DACC24EE5BF5003DE040 /* _CustomHTTPProtocol.m */,
-				3826DACD24EE5BF5003DE040 /* _CacheStoragePolicy.m */,
-				3826DACE24EE5BF5003DE040 /* _QNSURLSessionDemux.h */,
-				3826DACF24EE5BF5003DE040 /* _CanonicalRequest.m */,
-				3826DAD024EE5BF5003DE040 /* _CustomHTTPProtocol.h */,
-			);
-			path = CustomHTTPProtocol;
 			sourceTree = "<group>";
 		};
 		3826DAD124EE5BF5003DE040 /* Logs */ = {
 			isa = PBXGroup;
 			children = (
-				3826DAD324EE5BF5003DE040 /* _OCLogModel.h */,
-				3826DADB24EE5BF5003DE040 /* _OCLogModel.m */,
 				385945ED256D07D400ADA065 /* _SwiftLogHelper.swift */,
-				3826DAD424EE5BF5003DE040 /* _NSLogHook.m */,
-				3826DAD524EE5BF5003DE040 /* _OCLogHelper.h */,
-				3826DAD624EE5BF5003DE040 /* _OCLoggerFormat.m */,
-				3826DAD724EE5BF5003DE040 /* CocoaDebugTool.m */,
-				3826DAD824EE5BF5003DE040 /* _ObjcLog.h */,
-				3826DAD924EE5BF5003DE040 /* _OCLogStoreManager.m */,
-				3826DADA24EE5BF5003DE040 /* _OCLogHelper.m */,
 				3826DADC24EE5BF5003DE040 /* LogCell.swift */,
 				3826DADD24EE5BF5003DE040 /* LogViewController.swift */,
-				3826DADE24EE5BF5003DE040 /* _OCLoggerFormat.h */,
-				3826DADF24EE5BF5003DE040 /* CocoaDebugTool.h */,
-				3826DAE024EE5BF5003DE040 /* _OCLogStoreManager.h */,
-				3826DAE124EE5BF5003DE040 /* _ObjcLog.m */,
 			);
 			path = Logs;
-			sourceTree = "<group>";
-		};
-		3826DAE224EE5BF5003DE040 /* Sandbox */ = {
-			isa = PBXGroup;
-			children = (
-				3826DD1924EE5FD5003DE040 /* _DirectoryContentsTableViewController.h */,
-				3826DD2224EE5FD5003DE040 /* _DirectoryContentsTableViewController.m */,
-				3826DD1724EE5FD5003DE040 /* _FileInfo.h */,
-				3826DD1524EE5FD4003DE040 /* _FileInfo.m */,
-				3826DD1824EE5FD5003DE040 /* _FilePreviewController.h */,
-				3826DD1C24EE5FD5003DE040 /* _FilePreviewController.m */,
-				3826DD1624EE5FD5003DE040 /* _FileTableViewCell.h */,
-				3826DD2024EE5FD5003DE040 /* _FileTableViewCell.m */,
-				3826DD2324EE5FD5003DE040 /* _ImageController.h */,
-				3826DD1424EE5FD4003DE040 /* _ImageController.m */,
-				3826DD1E24EE5FD5003DE040 /* _ImageResources.h */,
-				3826DD1F24EE5FD5003DE040 /* _ImageResources.m */,
-				3826DD2124EE5FD5003DE040 /* _Sandboxer-Header.h */,
-				3826DD1A24EE5FD5003DE040 /* _Sandboxer.h */,
-				3826DD1D24EE5FD5003DE040 /* _Sandboxer.m */,
-				3826DD1B24EE5FD5003DE040 /* _SandboxerHelper.h */,
-				3826DD1324EE5FD4003DE040 /* _SandboxerHelper.m */,
-			);
-			path = Sandbox;
-			sourceTree = "<group>";
-		};
-		3826DAF424EE5BF5003DE040 /* Swizzling */ = {
-			isa = PBXGroup;
-			children = (
-				3826DAF524EE5BF5003DE040 /* _Swizzling.m */,
-				3826DAF624EE5BF5003DE040 /* _WKWebView+Swizzling.m */,
-				3826DAF724EE5BF5003DE040 /* _Swizzling.h */,
-			);
-			path = Swizzling;
 			sourceTree = "<group>";
 		};
 		3826DAF824EE5BF5003DE040 /* Window */ = {
@@ -980,17 +1126,6 @@
 			path = Window;
 			sourceTree = "<group>";
 		};
-		3826DB0024EE5BF5003DE040 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				38F69F8826A6FAFB0010953F /* GPBMessage+CocoaDebug.h */,
-				38F69F8926A6FAFB0010953F /* GPBMessage+CocoaDebug.m */,
-				3826DB0124EE5BF5003DE040 /* NSObject+CocoaDebug.h */,
-				3826DB0324EE5BF5003DE040 /* NSObject+CocoaDebug.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 		3826DE7724EE7CDE003DE040 /* CocoaDebugTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1003,24 +1138,9 @@
 		3828BA25259E223B00ABF650 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
-				3871CFF827042E1F005967AE /* _RunloopMonitor.h */,
-				3871CFF927042E1F005967AE /* _RunloopMonitor.m */,
-				3871CFF627042E1F005967AE /* _BacktraceLogger.h */,
-				3871CFF727042E1F005967AE /* _BacktraceLogger.m */,
 				3828BA26259E223B00ABF650 /* FPSCounter.swift */,
-				3828BA27259E223B00ABF650 /* _DebugConsoleLabel.h */,
-				3828BA28259E223B00ABF650 /* _DebugConsoleLabel.m */,
 			);
 			path = Monitor;
-			sourceTree = "<group>";
-		};
-		3882D67F25676EA200379E0C /* fishhook */ = {
-			isa = PBXGroup;
-			children = (
-				3882D68025676EA200379E0C /* _fishhook.c */,
-				3882D68125676EA200379E0C /* _fishhook.h */,
-			);
-			path = fishhook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
