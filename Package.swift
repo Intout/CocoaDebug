@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v12)
     ],
     products: [
-        .library(name: "CocoaDebug", targets: ["SwiftModule", "ObjcModule"]),
+        .executable(name: "CocoaDebug", targets: ["SwiftModule", "ObjcModule"])
     ],
     dependencies: [],
     targets: [
