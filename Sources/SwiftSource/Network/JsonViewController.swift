@@ -15,6 +15,7 @@ enum EditType {
 
 import Foundation
 import UIKit
+import ObjcModule
 
 class JsonViewController: UIViewController {
     

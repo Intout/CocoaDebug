@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import ObjcModule
 
 extension Dictionary {
     ///JSON/Form format conversion

@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import ObjcModule
+import UIKit
 
 public class _SwiftLogHelper: NSObject {
     

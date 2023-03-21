@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ObjcModule
 
 public class WindowHelper: NSObject {
     public static let shared = WindowHelper()

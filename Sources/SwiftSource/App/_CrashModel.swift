@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ObjcModule
 
 class _CrashModel: NSObject, NSCoding {
     

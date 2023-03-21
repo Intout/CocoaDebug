@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ObjcModule
 
 class LogCell: UITableViewCell {
     

@@ -821,6 +821,19 @@
 			path = include;
 			sourceTree = "<group>";
 		};
+		00579E6729C9DAE400DE2BC0 /* SwiftSource */ = {
+			isa = PBXGroup;
+			children = (
+				3828BA25259E223B00ABF650 /* Monitor */,
+				3826D9CE24EE5BF4003DE040 /* Core */,
+				3826D9D424EE5BF4003DE040 /* App */,
+				3826DABB24EE5BF5003DE040 /* Network */,
+				3826DAD124EE5BF5003DE040 /* Logs */,
+				3826DAF824EE5BF5003DE040 /* Window */,
+			);
+			path = SwiftSource;
+			sourceTree = "<group>";
+		};
 		380965682414E04F00382668 = {
 			isa = PBXGroup;
 			children = (
@@ -851,14 +864,9 @@
 		3826D9CD24EE5BF4003DE040 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				00579E6729C9DAE400DE2BC0 /* SwiftSource */,
 				00579E5129C9CD8A00DE2BC0 /* ObjcSource */,
-				3828BA25259E223B00ABF650 /* Monitor */,
-				3826D9CE24EE5BF4003DE040 /* Core */,
-				3826D9D424EE5BF4003DE040 /* App */,
 				3826DA0824EE5BF4003DE040 /* Resources */,
-				3826DABB24EE5BF5003DE040 /* Network */,
-				3826DAD124EE5BF5003DE040 /* Logs */,
-				3826DAF824EE5BF5003DE040 /* Window */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;

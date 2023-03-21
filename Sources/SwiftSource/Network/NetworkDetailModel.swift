@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import ObjcModule
 
 struct NetworkDetailModel {
     var title: String?

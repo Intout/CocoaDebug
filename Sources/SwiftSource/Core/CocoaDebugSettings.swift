@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import ObjcModule
+import UIKit
 
 @objc public class CocoaDebugSettings: NSObject {
     
