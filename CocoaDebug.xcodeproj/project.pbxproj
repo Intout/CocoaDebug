@@ -595,6 +595,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0022D97829CA1DFC008BCC83 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0022D97A29CA21BD008BCC83 /* ObjcSource */ = {
+			isa = PBXGroup;
+			children = (
+				0022D97C29CA21DA008BCC83 /* include */,
+			);
+			path = ObjcSource;
+			sourceTree = "<group>";
+		};
+		0022D97B29CA21CF008BCC83 /* SwiftSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftSource;
+			sourceTree = "<group>";
+		};
+		0022D97C29CA21DA008BCC83 /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		380965682414E04F00382668 = {
 			isa = PBXGroup;
 			children = (
@@ -625,6 +654,9 @@
 		3826D9CD24EE5BF4003DE040 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0022D97B29CA21CF008BCC83 /* SwiftSource */,
+				0022D97A29CA21BD008BCC83 /* ObjcSource */,
+				0022D97829CA1DFC008BCC83 /* include */,
 				3828BA25259E223B00ABF650 /* Monitor */,
 				3882D67F25676EA200379E0C /* fishhook */,
 				3826D9CE24EE5BF4003DE040 /* Core */,

@@ -1,0 +1,1 @@
+../Logs/LogCell.swift
